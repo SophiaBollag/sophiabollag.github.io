@@ -1,0 +1,233 @@
+a:link {
+    color: slateblue;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: slateblue;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: slateblue;
+    text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+	color: black;
+	text-decoration: none;
+}
+
+a.SMB:link {
+	color: black;
+	text-decoration: none;
+}
+
+/* visited link */
+a.SMB:visited {
+	color: black;
+	text-decoration: none;
+}
+
+/* mouse over link */
+a.SMB:hover {
+	color: black;
+	text-decoration: none;
+}
+
+/* selected link */
+a.SMB:active {
+    color: black;
+    text-decoration: none;
+}
+
+a.other:link {
+    color: darkgray;
+    text-decoration: none;
+}
+
+/* visited link */
+a.other:visited {
+    color: darkgray;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a.other:hover {
+    color: slateblue;
+    text-decoration: underline;
+}
+
+/* selected link */
+a.other:active {
+	color: black;
+	text-decoration: none;
+}
+
+head {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 350;
+	text-align: center;
+	display: block;
+	width: 100%;
+}
+
+/* Default */
+h1 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 350;
+	text-align: center;
+	font-size: 55px;
+	line-height: 60%;
+	padding-top: 75px;
+	display: block;
+}
+
+/* Mobile screen */
+@media screen and (max-width: 400px) {
+  	h1 {
+		font-family: 'Roboto', sans-serif;
+		font-weight: 350;
+		text-align: center;
+		font-size: 30px;
+		display: block;
+	}
+}
+
+/* Default */
+h2 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 350;
+	text-align: center;
+	font-size: 18px;
+	line-height: 1%;
+	margin-bottom: 40px;
+}
+
+/* Mobile screen */
+@media screen and (max-width: 500px) {
+	h2 {
+		font-family: 'Roboto', sans-serif;
+		font-weight: 350;
+		text-align: center;
+		font-size: 13px;
+		line-height: 1%;
+		margin-bottom: 40px;
+	}
+}
+
+/* Default */
+body {
+	font-family: Georgia, Serif;
+	font-size: 15px;
+    padding-left: 22.5%;
+    padding-right: 22.5%;
+}
+
+/* Medium screen */
+@media screen and (max-width: 1050px) {
+  	body {
+		font-family: Georgia, Serif;
+		font-size: 15px;
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+}
+
+/* Small screen */
+@media screen and (max-width: 800px) {
+  	body {
+		font-family: Georgia, Serif;
+		font-size: 15px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}
+
+div {
+	border-radius: 5px;
+	display: inline-block
+}
+
+.img-circular {
+ 	width: 160px;
+ 	height: 160px;
+ 	background-image: url('http://media-cache-ec0.pinimg.com/736x/56/f3/4e/56f34ecb92fed3af6ebc3751faf7e82b.jpg');
+ 	background-size: cover;
+ 	display: inline-block;
+ 	border-radius: 80px;
+ 	-webkit-border-radius: 80px;
+ 	-moz-border-radius: 80px;
+}
+
+
+/* Default */
+.heading {
+	width: 24%;
+	display: inline-block;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	text-align: left;
+	float: left;
+	padding-top: 18px;
+}
+
+/* Medium screen */
+@media screen and (max-width: 1050px) {
+	.heading {
+		width: 100%;
+		display: block;
+		font-family: 'Roboto', sans-serif;
+		font-size: 20px;
+
+		}
+}
+
+/* Default */
+.info {
+	width: 75%;
+	display: inline-block;
+	float: left;
+	vertical-align: top;
+}
+
+/* Small screen */
+@media screen and (max-width: 1050px) {
+		.info {
+		width: 100%;
+		display: block;
+		float: left;
+		vertical-align: top;
+	}
+}
+
+#place {
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+}
+
+#bullets {
+	font-family: Georgia, Serif;
+	font-size: 15px;
+}
+
+.connect {
+	font-family: Georgia, Serif;
+	font-size: 30px;
+	text-align: center;
+	display: block;
+}
+
+.bio {
+	width: 75%;
+	padding-left: 30px;
+}
+
+footer {
+	text-align: right;
+	font-family: Georgia, Serif;
+	font-size: 13px;
+}
